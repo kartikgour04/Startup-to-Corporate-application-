@@ -94,6 +94,7 @@ CLIENT_URL=http://localhost:3000
 
 ```bash
 npm run seed
+node scripts/seed.js
 ```
 
 This creates:

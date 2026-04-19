@@ -50,7 +50,7 @@ A full-stack MERN web platform connecting innovative startups with forward-think
 | Charts | Recharts |
 | Email | Nodemailer |
 | File Uploads | Multer + Cloudinary |
-| Payments | Stripe (integration-ready) |
+| Payments | Razorpay |
 | Deployment | Render / Railway / Vercel + MongoDB Atlas |
 
 ---
@@ -185,39 +185,6 @@ nexus-platform/
 | GET | `/api/opportunities/my/posted` | My posted opps |
 | GET | `/api/opportunities/my/applications` | My applications |
 
-*(and similar endpoints for corporates, pitches, events, funding, messages, connections, notifications, reviews, search, analytics, admin)*
-
----
-
-## ☁️ Deployment
-
-### Backend (Render / Railway)
-1. Create account on [Render](https://render.com) or [Railway](https://railway.app)
-2. Connect your GitHub repo
-3. Set environment variables from `.env.example`
-4. Set start command: `cd server && npm start`
-
-### Frontend (Vercel / Netlify)
-1. Connect repo to [Vercel](https://vercel.com)
-2. Set build directory: `client`
-3. Set build command: `npm run build`
-4. Set `REACT_APP_API_URL` to your backend URL
-
-### Database (MongoDB Atlas)
-1. Create free cluster at [MongoDB Atlas](https://cloud.mongodb.com)
-2. Get connection string and set as `MONGO_URI`
-
----
-
-## 💰 Monetization Ideas
-
-1. **Premium Subscriptions** — $29–$199/month for startups/corporates
-2. **Featured Listings** — Charge to feature profiles/opportunities
-3. **Event Tickets** — Platform fee on paid event registrations
-4. **Verified Badges** — Paid verification for credibility
-5. **Lead Generation** — Charge corporates per quality application
-6. **Accelerator Partnerships** — Revenue share with accelerators
-7. **API Access** — Enterprise API for aggregators/platforms
 
 ---
 
@@ -252,4 +219,4 @@ PRs welcome! See issues tab for feature requests and bug reports.
 
 ---
 
-*Built with ❤️ — Nexus Platform © 2025*
+*Built with ❤️ by Kartik Gour— Nexus Platform 

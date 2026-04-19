@@ -223,18 +223,7 @@ export default function PricingPage() {
           <p className="text-slate-400 text-xs mt-3">Powered by Razorpay · PCI DSS Compliant · 256-bit SSL Encryption</p>
         </div>
 
-        {/* Razorpay setup guide */}
-        <div className="bg-blue-50 border border-blue-200 rounded-2xl p-6 mb-12">
-          <h3 className="font-bold text-blue-900 mb-2">🚀 Setting Up Razorpay (5 minutes)</h3>
-          <ol className="text-blue-800 text-sm space-y-2 list-decimal list-inside">
-            <li>Create account at <a href="https://razorpay.com" target="_blank" rel="noreferrer" className="underline font-medium">razorpay.com</a> (instant activation for Indian businesses)</li>
-            <li>Go to Dashboard → Settings → API Keys → Generate Test Key</li>
-            <li>Add to <code className="bg-blue-100 px-1 rounded">server/.env</code>: <code className="bg-blue-100 px-1 rounded">RAZORPAY_KEY_ID=rzp_test_xxx</code> and <code className="bg-blue-100 px-1 rounded">RAZORPAY_KEY_SECRET=xxx</code></li>
-            <li>Restart server: <code className="bg-blue-100 px-1 rounded">npm run dev</code></li>
-            <li>Test payment with card: <code className="bg-blue-100 px-1 rounded">4111 1111 1111 1111</code>, any future date, any CVV</li>
-          </ol>
-          <p className="text-blue-600 text-xs mt-3">For production: Complete KYC on Razorpay Dashboard → switch to live keys. Payouts within 2-3 business days to Indian bank account.</p>
-        </div>
+        
 
         {/* Downgrade option */}
         {user?.isPremium && (

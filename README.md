@@ -199,19 +199,6 @@ nexus-platform/
 
 ---
 
-## 📝 Interview Talking Points
-
-- **Role-based Auth**: JWT with separate startup/corporate interfaces reduces onboarding friction
-- **Real-time Features**: Socket.io for live messaging, typing indicators, online status
-- **Application Pipeline**: Kanban-style status management (pending → reviewing → shortlisted → accepted)
-- **Profile Completion**: Dynamic scoring algorithm motivates users to complete profiles
-- **Search Architecture**: MongoDB text indexes for fast full-text search across entities
-- **State Management**: Zustand for lightweight, scalable global state
-- **Security**: Helmet, rate limiting, input validation, bcrypt hashing
-- **Scalability**: Mongoose indexes, pagination, connection pooling ready
-
----
-
 ## 🤝 Contributing
 
 PRs welcome! See issues tab for feature requests and bug reports.

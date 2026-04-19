@@ -185,7 +185,6 @@ nexus-platform/
 | GET | `/api/opportunities/my/posted` | My posted opps |
 | GET | `/api/opportunities/my/applications` | My applications |
 
-
 ---
 
 ## 🎨 Demo Credentials

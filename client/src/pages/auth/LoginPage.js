@@ -203,7 +203,7 @@ export function LoginPage() {
             </button>
           </form>
 
-          <div className="mt-6 pt-6 border-t border-slate-100">
+          {/* <div className="mt-6 pt-6 border-t border-slate-100">
             <p className="text-xs text-slate-500 mb-3 text-center font-medium uppercase tracking-wider">Demo Accounts</p>
             <div className="space-y-2">
               {[
@@ -221,7 +221,7 @@ export function LoginPage() {
                 </button>
               ))}
             </div>
-          </div>
+          </div> */}
 
           <p className="text-center text-sm text-slate-500 mt-6">
             Don't have an account? <Link to="/register" className="text-indigo-600 font-semibold hover:text-indigo-700">Sign up free</Link>

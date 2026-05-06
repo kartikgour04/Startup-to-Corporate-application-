@@ -203,11 +203,11 @@ export function LoginPage() {
             </button>
           </form>
 
-          {/* <div className="mt-6 pt-6 border-t border-slate-100">
+          <div className="mt-6 pt-6 border-t border-slate-100">
             <p className="text-xs text-slate-500 mb-3 text-center font-medium uppercase tracking-wider">Demo Accounts</p>
             <div className="space-y-2">
               {[
-                { label: '🚀 Startup Demo', email: 'arjun@aifusion.in', pw: 'Test@123', desc: 'AI Fusion · Hyderabad' },
+                { label: '🚀 Startup Demo', email: 'k17882579@gmail.com', pw: '12345678', desc: 'AI Fusion · Hyderabad' },
                 { label: '🏢 Corporate Demo', email: 'anjali@techcorp.in', pw: 'Test@123', desc: 'TechCorp · Bangalore' },
               ].map(d => (
                 <button key={d.label} type="button"
@@ -221,7 +221,7 @@ export function LoginPage() {
                 </button>
               ))}
             </div>
-          </div> */}
+          </div>
 
           <p className="text-center text-sm text-slate-500 mt-6">
             Don't have an account? <Link to="/register" className="text-indigo-600 font-semibold hover:text-indigo-700">Sign up free</Link>
